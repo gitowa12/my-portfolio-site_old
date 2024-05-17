@@ -1,4 +1,4 @@
-const TopPage = () => {
+const Home = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center mt-[32px] mb-[64px]">
@@ -62,4 +62,4 @@ const TopPage = () => {
   );
 };
 
-export default TopPage;
+export default Home;

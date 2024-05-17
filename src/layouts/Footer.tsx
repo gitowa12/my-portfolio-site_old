@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,16 +7,20 @@ const Footer = () => {
       <nav>
         <ul className="mb-[24px] flex flex-col items-center">
           <li className="font-bold tracking-wide text-lg w-full text-center border-y h-[48px] flex items-center justify-center">
-            <a href="#about">About</a>
+            {/* <a href="#about">About</a> */}
+            <Link to="/about">About</Link>
           </li>
           <li className="font-bold tracking-wide text-lg w-full text-center border-b h-[48px] flex items-center justify-center">
-            <a href="#work">Work</a>
+            {/* <a href="#work">Work</a> */}
+            <Link to="/Work">Work</Link>
           </li>
           <li className="font-bold tracking-wide text-lg w-full text-center border-b h-[48px] flex items-center justify-center">
-            <a href="#blog">Blog</a>
+            {/* <a href="#blog">Blog</a> */}
+            <Link to="/blog">Blog</Link>
           </li>
           <li className="font-bold tracking-wide text-lg w-full text-center border-b h-[48px] flex items-center justify-center">
-            <a href="#contact">Contact</a>
+            {/* <a href="#contact">Contact</a> */}
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
