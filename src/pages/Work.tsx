@@ -1,7 +1,5 @@
-import { useState } from "react";
-
 const Work = () => {
-  const [workItems, setWorkItems] = useState();
+  // const [workItems, setWorkItems] = useState();
 
   return (
     <>
