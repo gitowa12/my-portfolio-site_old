@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import WorkItem from "./pages/WorkItem";
 
 import Footer from "./layouts/Footer";
 import Header from "./layouts/Header";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
+            <Route path="/work/:id" element={<WorkItem />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/*" element={<NotFound />} />

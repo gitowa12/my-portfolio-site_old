@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import HambugerMenu from "../components/HambugerMenu";
-import { useState } from "react";
 
 const Header = () => {
   return (
